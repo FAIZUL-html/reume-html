@@ -1,121 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="icon" href="🗎">
-</head>
-<body id="top">
-    <header>
-        <h1>Mohammad Faizul Rehaman</h1>
-        <ul>
-            <li>📞 Phone: 9703112134</li>
-            <li>📧Email: mdfaizul970@gmail.com</li>
-        </ul>
-        <p>B.Tech - Electronic and Communication Engineering (ECE).</p>
-        <hr>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+# HTML Resume Template
 
-        </nav>
-        <hr>
+A simple and clean HTML template for creating your personal resume or CV. This template lets you showcase your skills, education, and contact information in a web-friendly format. Easy to customize and printable to PDF.
 
+## Features
 
-    </header>
-    <main>
-        <section id="about">
-        <h2>
-            About Me
-        </h2>
-       <p>I am a B.Tech student with basic knowledge of HTML, SQL, Python, Excel and MS Office.</p>
-        </section>
-        <hr>
-        <section id="skills">
-        <h2>My skills</h2>
-        <ul>
-            <li>Entry Level HTML</li>
-            <li>Entry Level SQL</li>
-            <li>Basics of Python</li>
-            <li>MS Office and Excel</li>
+- Clean HTML layout with sections for About, Skills, Education, and Contact
+- Responsive design for different screen sizes
+- Easy to edit and personalize
+- Printable directly from the browser
 
-        </ul>
-        </section>
-        <br>
-        <section id="education">
-        <h2>Education
-        
-        </h2>
-        <table border="1"> 
-          
-            <tr>
-                <th> Qualifications</th>
-                <th>College</th>
-                <th>Year</th>
-            </tr>
-            <tr>
-                <th>B.Tech(ECE)</th>
-                <td> Gudlavalleru Engineering College</td>
-                <td >2026</td>
+## Preview
 
-            </tr>
-            <tr>
-                <th>Intermediate</th>
-                <td>Narayana Junior College</td>
-                <td >2022</td>
-            </tr>
-            <tr>
-                <th> SSC
+Open the `style.html` file in any browser to see your resume.
 
-                </th>
-                <td>S.V Public School</td>
-                <td >2020</td>
-            </tr>
+## Getting Started
 
+1. **Clone the repository**
 
-
-        </table>
-        </section>
-        <hr>
-        <section id="contact">
-        <h2>Contact Me</h2>
-        <form >
-            <fieldset>
-            <legend id="text">Text Here</legend>
-          <p>  <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Enter your name" required>
-            </p>
-          <p>  <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email"></p>
-            <label for="message">Send Me a Message:</label>
-            <br>
-            <textarea name="message" id="message" rows="10" cols="20">Message Here</textarea>
-           
-            </fieldset>
-            <br>
-             <button type="submit">Button</button>
-           <button type="reset">Reset</button>
-           <br>
-        </form>
-        </section>
-
-
-
-    </main>
-    &nbsp;
-      &nbsp;
-<br>
-    <a href="#top">Back to Top</a>
-   
-     
-    <br>
-    
-    <footer> &copy;2026 Mohammad Faizul Rehaman</footer>
-    
-</body>
-</html>
+```bash
+git clone https://github.com/FAIZUL-html/html-resume-template.git
